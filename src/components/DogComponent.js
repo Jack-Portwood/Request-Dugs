@@ -23,7 +23,7 @@ const DogComponent = () => {
 return (
   <div>
     <h1>Woof WOof</h1>
-    <span>{JSON.stringify(dogs)}</span>
+    <img src ={dogs.message}/>
     <hr/>
     <span> has error: {JSON.stringify(hasError)}</span>
   </div>
