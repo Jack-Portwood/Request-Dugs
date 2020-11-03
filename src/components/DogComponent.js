@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React,{useState,useEffect,Fragment} from 'react'
 const DogComponent = () => {
 
     const [hasError, setErrors] = useState(false)
@@ -17,16 +17,26 @@ const DogComponent = () => {
         fetchData();
     },[])
 
+    function nextDug(event) {
+        fetchData()
+    };
+
 
 
 
 return (
-  <div>
-    <h1>Woof WOof</h1>
-    <img src ={dogs.message}/>
-    <hr/>
-    <span> has error: {JSON.stringify(hasError)}</span>
-  </div>
+  <Fragment>
+    <div className="title">
+      <h1>Woof Woof</h1>
+    </div>
+
+    <div className="Container">
+      <img src={dogs.message} className="image" />
+    </div>
+    <button type="button" onClick={nextDug} className="button">
+      Button
+    </button>
+  </Fragment>
 );
 }
 
