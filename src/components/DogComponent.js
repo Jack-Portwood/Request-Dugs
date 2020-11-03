@@ -1,4 +1,6 @@
 import React,{useState,useEffect,Fragment} from 'react'
+import {FaDog} from 'react-icons/fa';
+
 const DogComponent = () => {
 
     const [hasError, setErrors] = useState(false)
@@ -27,15 +29,15 @@ const DogComponent = () => {
 return (
   <Fragment>
     <div className="title">
-      <h1>Woof Woof</h1>
+      <h1>Got Dugs</h1>
     </div>
 
     <div className="Container">
       <img src={dogs.message} className="image" />
     </div>
-    <button type="button" onClick={nextDug} className="button">
-      Button
-    </button>
+    <div className="btn-container">
+      <FaDog type="button" onClick={nextDug} className="button"></FaDog>
+    </div>
   </Fragment>
 );
 }
