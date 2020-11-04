@@ -8,6 +8,7 @@ const DogComponent = () => {
 
     async function fetchData(){
         const res = await fetch("https://dog.ceo/api/breeds/image/random");
+        
 
         res 
             .json()
@@ -15,11 +16,13 @@ const DogComponent = () => {
             .catch(err=> setErrors(err));
     }
 
+
+
     useEffect(() =>{
         fetchData();
     },[])
 
-    function nextDug(event) {
+    function nextDug() {
         fetchData()
     };
 
@@ -33,7 +36,7 @@ return (
     </div>
 
     <div className="Container">
-      <img src={dogs.message} className="image" alt="Image of a Good Dug" />
+      <img src={dogs.message} className="image" alt="A Good Dug" />
     </div>
     
     <div className="btn-container">
