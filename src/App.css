@@ -27,8 +27,8 @@ width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  max-height: 80vh;
-  max-width: 80vw;
+  max-height: 60vh;
+  max-width: 60vw;
   margin: 10px;
   border: black solid;
 
