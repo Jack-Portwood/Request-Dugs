@@ -33,11 +33,14 @@ return (
     </div>
 
     <div className="Container">
-      <img src={dogs.message} className="image" />
+      <img src={dogs.message} className="image" alt="Image of a Good Dug" />
     </div>
+    
     <div className="btn-container">
       <FaDog type="button" onClick={nextDug} className="button"></FaDog>
     </div>
+    <span>{(hasError)}</span>
+    
   </Fragment>
 );
 }
