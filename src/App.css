@@ -1,7 +1,7 @@
 
 body{
 background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
-border: solid black;
+border: solid black ;
 height: 100vh;
 width: 100vw;
 }
@@ -36,6 +36,8 @@ width: 100vw;
 }
 .btn-container{
   text-align: center;
+  height: 10vh;
+  width: 10vw;
 
 }
 .button{
