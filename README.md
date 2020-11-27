@@ -1,10 +1,12 @@
 ![Imgur](https://i.imgur.com/1CfBaMg.png)
-#Initially Fetched Good Boy
+# Initially Fetched Good Boy
 
 ![Imgur](https://i.imgur.com/K2CfuaD.png)
-#Next Fetched Good Boy
+# Next Fetched Good Boy
 
-##Development Background 
+## Development Background 
+*Request-Dugs* was initially an excerise in refamiliarize myself with async fetch requests. Although is app has a simple scope it provides a gentle lift during the harder days.
+Please take some time today to *Request Dugs*.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
