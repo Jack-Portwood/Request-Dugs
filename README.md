@@ -1,3 +1,10 @@
+![Imgur](https://i.imgur.com/1CfBaMg.png)
+#Initially Fetched Good Boy
+
+![Imgur](https://i.imgur.com/K2CfuaD.png)
+#Next Fetched Good Boy
+
+##Development Background 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
