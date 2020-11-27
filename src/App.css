@@ -31,6 +31,7 @@ width: 100vw;
   max-width: 60vw;
   margin: 10px;
   border: black solid;
+  border-radius: 5vh;
 
 }
 .btn-container{
@@ -41,7 +42,19 @@ width: 100vw;
 .button{
   height: 9vh;
   width: 10vw;
-  
+  animation: spin 3s linear 1;
+}
+
+@keyframes spin{
+  0%{
+    transform: rotatez(0deg)
+  }
+  50%{
+    transform: rotatez(-45deg)
+  }
+  100%{
+    transform: rotatez(0deg)
+  }
 }
 
 
