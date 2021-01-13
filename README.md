@@ -7,7 +7,7 @@
 # Next Fetched Good Boy
 
 ## Development Background 
-*Request-Dugs* was initially an excerise in refamiliarize myself with async fetch requests. Although is app has a simple scope it provides a gentle lift during the harder days.
+*Request-Dugs* was initially an exercise to refamiliarize myself with async fetch requests. Although is app has a simple scope it provides a gentle lift during the harder days.
 Please take some time today to *Request Dugs*.
 
 # Getting Started with Create React App
